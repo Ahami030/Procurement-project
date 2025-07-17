@@ -1,0 +1,80 @@
+
+.overlayy {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+/* Style for the modal */
+.modaly {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    width: 100%;
+    max-height: 90%;
+    overflow: auto;
+    position: relative;
+}
+
+/* Style for the close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Style for the image preview */
+.image-preview {
+    margin: 20px 0;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.inner-card {
+  transition: transform 0.3s; /* Add the transition property for background-color */
+  }
+  .inner-card:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+  }
+  .inner-card {
+    position: relative;
+  }
+  .badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transition: opacity 0.3s;
+  }
+  .badge.hidden {
+    opacity: 0;
+  }
+  #list-group-item1{
+    color: orange;
+  }
+  #list-group-item2{
+    color: orange;
+  }
+  #list-group-item3{
+    color: #00a85a;
+
+  }
+  #card1{
+    background-color: #343a40;
+    color: white;
+  }
+
